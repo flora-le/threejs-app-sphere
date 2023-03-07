@@ -54,8 +54,7 @@ renderer.render(scene, camera)
 
 
 //Controls
-/**
- * allow the camera to orbit around a target
+/** allow the camera to orbit around a target
  */
 const controls = new OrbitControls(camera, canvas)
 controls.enableDamping = true
